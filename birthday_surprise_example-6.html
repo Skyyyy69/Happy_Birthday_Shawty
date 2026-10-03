@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For You, Shawty 💗</title>
+<style>
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Georgia,serif;background:#fff5f8;color:#44212d;overflow-x:hidden}
+section{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:40px 22px;position:relative}
+.hero{background:radial-gradient(circle at 50% 30%,#ffd9e7 0,#fff5f8 45%,#ffeef4 100%);text-align:center}
+.glow{position:absolute;width:260px;height:260px;border-radius:50%;background:#ffc2d8;filter:blur(70px);opacity:.45}
+.content{position:relative;z-index:2;max-width:650px}
+.kicker{letter-spacing:4px;text-transform:uppercase;font:12px Arial,sans-serif;color:#b35a77}
+h1{font-size:clamp(46px,12vw,92px);line-height:.95;margin:18px 0;color:#5b2639}
+h2{font-size:clamp(32px,7vw,55px);margin:10px 0 25px}
+p{font:17px/1.8 Arial,sans-serif;color:#704454}
+.btn{display:inline-block;margin-top:25px;padding:15px 28px;border-radius:99px;background:#6b2943;color:white;text-decoration:none;font:600 14px Arial,sans-serif;box-shadow:0 12px 30px #8d456233}
+.heart{font-size:42px;animation:pulse 1.5s infinite}@keyframes pulse{50%{transform:scale(1.18)}}
+.card{background:#ffffffcc;border:1px solid #fff;box-shadow:0 20px 60px #9d45631c;border-radius:30px;padding:35px;backdrop-filter:blur(12px);width:min(650px,100%)}
+.memory-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:25px}
+.memory{height:180px;border-radius:22px;background:linear-gradient(135deg,#ffd5e3,#f5b7cc);display:flex;align-items:center;justify-content:center;color:#8c3d59;font:600 14px Arial,sans-serif}
+.letter{text-align:left}
+.letter p{font-family:Georgia,serif;font-size:18px}
+.final{background:#4d2032;color:white;text-align:center}
+.final p,.final .kicker{color:#f6c9d8}.final h2{color:white}
+.sparkle{position:absolute;font-size:22px;animation:float 5s ease-in-out infinite;opacity:.7}@keyframes float{50%{transform:translateY(-30px) rotate(10deg);opacity:1}}
+footer{position:absolute;bottom:18px;font:11px Arial,sans-serif;opacity:.65}
+</style>
+</head>
+<body>
+
+<section class="hero">
+  <div class="glow"></div>
+  <div class="sparkle" style="top:18%;left:12%">✦</div>
+  <div class="sparkle" style="top:28%;right:12%;animation-delay:1s">♡</div>
+  <div class="content">
+    <div class="heart">♡</div>
+    <div class="kicker">A little surprise for you</div>
+    <h1>Hey,<br>Shawty.</h1>
+    <p>I made a tiny corner of the internet just for you.<br>And yes… it comes with a birthday surprise.</p>
+    <a class="btn" href="#birthday">Open your surprise →</a>
+  </div>
+</section>
+
+<section id="birthday">
+  <div class="card" style="text-align:center">
+    <div class="kicker">5 • October</div>
+    <h2>Happy Birthday<br>My Love 💗</h2>
+    <p>Today is your day. So for once, I'm stealing a little piece of the internet just to remind you how special you are.</p>
+    <div class="memory-grid">
+      <div class="memory">📸 Your favorite photo</div>
+      <div class="memory">🌸 A cute memory</div>
+      <div class="memory">🫶 Our moment</div>
+      <div class="memory">✨ Another memory</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="card letter">
+    <div class="kicker">A letter for you</div>
+    <h2>Dear Shawty,</h2>
+    <p>I'm not really sure how to put everything I feel into a few words, but I know one thing — having you in my life makes ordinary days feel a little more special.</p>
+    <p>I hope this birthday brings you the same happiness, comfort and smiles that you bring into my life without even trying.</p>
+    <p>Keep being you. And please remember… there's someone out here who's ridiculously lucky to have you. ♡</p>
+    <p style="text-align:right">— Yours, always 💌</p>
+  </div>
+</section>
+
+<section class="final">
+  <div class="content">
+    <div class="heart">💗</div>
+    <div class="kicker">One last thing</div>
+    <h2>You deserve the whole world.</h2>
+    <p>But until I can give you that,<br>I'll keep making little worlds like this one for you.</p>
+    <p style="margin-top:45px;font-size:14px">Happy Birthday, beautiful. 🎂✨</p>
+  </div>
+  <footer>Made with way too much love ♡</footer>
+</section>
+
+</body>
+</html>
